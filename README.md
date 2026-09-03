@@ -364,11 +364,10 @@ Jika masih muncul, **restart Windows terlebih dahulu**, jangan menghapus paket s
 
 ---
 
-# 🟢 Jika Sudah Berhasil
+# 🟢 TISAK ADA JAMINAN 100% BERHASIL INI DARI PENGALAMAN PRIBADI
 
 Setelah Roblox bisa dibuka:
 
 - Jangan melakukan reset AppX lagi.
 - Jangan menghapus Gaming Services.
 - Jangan menjalankan script debloat yang menghapus aplikasi Windows secara massal.
-- Jika tujuan akhirnya adalah menjalankan **2 akun Roblox dalam 1 PC**, lakukan konfigurasi multi-account setelah Roblox normal terlebih dahulu.
