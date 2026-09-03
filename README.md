@@ -171,7 +171,7 @@ Jika Gaming Services tidak bisa di-start manual, jangan dipaksakan.
 
 Buka **CMD sebagai Administrator**.
 
-### 7.1 DISM
+### 8.1 DISM
 
 ```cmd
 DISM /Online /Cleanup-Image /RestoreHealth
@@ -179,7 +179,7 @@ DISM /Online /Cleanup-Image /RestoreHealth
 
 Tunggu sampai **100%**.
 
-### 7.2 SFC
+### 8.2 SFC
 
 Setelah DISM selesai:
 
@@ -189,13 +189,13 @@ sfc /scannow
 
 Tunggu sampai selesai.
 
-### 7.3 Component Cleanup
+### 8.3 Component Cleanup
 
 ```cmd
 DISM /Online /Cleanup-Image /StartComponentCleanup
 ```
 
-### 7.4 Restart
+### 8.4 Restart
 
 ```cmd
 shutdown /r /t 0
