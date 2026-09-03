@@ -364,7 +364,7 @@ Jika masih muncul, **restart Windows terlebih dahulu**, jangan menghapus paket s
 
 ---
 
-# 🟢 TISAK ADA JAMINAN 100% BERHASIL INI DARI PENGALAMAN PRIBADI
+# 🟢 TIDAK ADA JAMINAN 100% BERHASIL INI DARI PENGALAMAN PRIBADI
 
 Setelah Roblox bisa dibuka:
 
