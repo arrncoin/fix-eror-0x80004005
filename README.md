@@ -9,7 +9,7 @@ Panduan step-by-step untuk memperbaiki Roblox yang gagal sign-in dengan:
 
 ---
 
-## STEP 0 — Tutup Roblox, Xbox, dan Microsoft Store
+## STEP 1 — Tutup Roblox, Xbox, dan Microsoft Store
 
 Buka **CMD sebagai Administrator**.
 
@@ -27,7 +27,7 @@ Pesan `process not found` boleh diabaikan.
 
 ---
 
-## STEP 1 — Reset Microsoft Store
+## STEP 2 — Reset Microsoft Store
 
 Di CMD Administrator:
 
@@ -43,7 +43,7 @@ Jika masih `0x80004005`, lanjut.
 
 ---
 
-## STEP 2 — Bersihkan Cache Roblox
+## STEP 3 — Bersihkan Cache Roblox
 
 Tekan:
 
@@ -69,7 +69,7 @@ Kemudian **restart PC**.
 
 ---
 
-## STEP 3 — Cek Paket Roblox
+## STEP 4 — Cek Paket Roblox
 
 Buka **PowerShell sebagai Administrator**.
 
@@ -85,7 +85,7 @@ Jika ada hasil, jangan hapus paketnya dulu. Lanjutkan diagnosis.
 
 ---
 
-## STEP 4 — Repair Gaming Services
+## STEP 5 — Repair Gaming Services
 
 Buka **PowerShell Administrator**.
 
@@ -115,7 +115,7 @@ Restart-Computer
 
 ---
 
-## STEP 5 — Re-register Xbox Identity Provider
+## STEP 6 — Re-register Xbox Identity Provider
 
 Buka **PowerShell Administrator**:
 
@@ -139,7 +139,7 @@ Jika ada pesan merah, jangan langsung menghapus paket. Catat error-nya.
 
 ---
 
-## STEP 6 — Pastikan Layanan Xbox Aktif
+## STEP 7 — Pastikan Layanan Xbox Aktif
 
 Di PowerShell Administrator:
 
@@ -167,7 +167,7 @@ Jika Gaming Services tidak bisa di-start manual, jangan dipaksakan.
 
 ---
 
-## STEP 7 — Perbaiki File Sistem Windows
+## STEP 8 — Perbaiki File Sistem Windows
 
 Buka **CMD sebagai Administrator**.
 
@@ -203,7 +203,7 @@ shutdown /r /t 0
 
 ---
 
-## STEP 8 — Re-register Microsoft Store
+## STEP 9 — Re-register Microsoft Store
 
 Setelah Windows menyala kembali, pastikan **Microsoft Store benar-benar tertutup**.
 
@@ -225,7 +225,7 @@ Restart-Computer
 
 ---
 
-# STEP 9 — Cek Gaming Services dan Xbox Identity
+# STEP 10 — Cek Gaming Services dan Xbox Identity
 
 PowerShell Administrator:
 
@@ -249,7 +249,7 @@ Simpan/copy hasil ketiganya jika Roblox masih error.
 
 ---
 
-# STEP 10 — Jangan Hapus Semua AppX
+# STEP 11 — Jangan Hapus Semua AppX
 
 **JANGAN menjalankan perintah seperti:**
 
@@ -269,7 +269,7 @@ Kita hanya memperbaiki paket yang berhubungan dengan Roblox/Xbox/Gaming Services
 
 ---
 
-# STEP 11 — Jika Roblox Masih Error
+# STEP 12 — Jika Roblox Masih Error
 
 Jika setelah semua langkah di atas Roblox masih menampilkan:
 
